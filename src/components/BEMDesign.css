@@ -12,13 +12,13 @@
     border-bottom: 2px solid black;
 }
 
-.header__headerDiv  {
+.header__topinfo  {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-.header__headerDiv--nonflexed{
+.header__items--head{
     display: block;
     text-align: center;
 }
@@ -27,14 +27,14 @@
     margin: 0;
 }
 
-.header__items--hr{
+.separator{
     height: 2px;
     background-color: black;
     border: 0;
     margin: 0;
 }
 
-.header__head  {
+.header__items--head  {
     font-size: 113px;
     margin: 0;
 }
@@ -47,61 +47,61 @@
     justify-content: space-between;
 }
 
-.sections__sectionDivs  {
+.sections__parts  {
     font-family: 'Source Serif Pro', serif;
 }
 
-.sections__sectionDivs--empty  {
+.sections__parts--empty  {
     background-color: #e0e0e0;
     max-width: 350px ;
 }
 
-.sections__sectionDivs--small  {
+.sections__parts--small  {
     max-width: 310px;
 }
 
-.sections__sectionDivs--large  {
+.sections__parts--large  {
     max-width: 350px;
 }
 
-.sectionDivs__head  {
+.parts__head  {
     font-size: 28px;
     margin: 10px 0;
 }
 
-.sectionDivs__datestamp  {
+.parts__datestamp  {
     font-size: 12px;
     font-weight: 600;
 }
 
-.sectionDivs__image{
+.parts__image{
     height: 100%;
     width: 100%;
 }
 
-.sectionDivs__content  {
+.parts__content  {
     font-size: 14px;
 }
 
-.sections__sectionDivs--xsmall  {
+.sections__parts--xsmall  {
     max-width: 220px;
 }
 
-.sectionDivs__head--small{
+.parts__head--small{
     font-size: 22px;
 }
 
 /* media queries required for resposiveness */
 
 @media only screen and (max-width: 850px) {
-    .header__head  {
+    .header__items--head  {
         font-size: 12.5vw;
     }
     
-    .sectionDivs__head  {
+    .parts__head  {
         font-size: 20px;
     }
-    .sectionDivs__head--small{
+    .parts__head--small{
         font-size: 16px;
     }
   }
@@ -111,10 +111,10 @@
         display: block;
         padding: 10px 0;
     }
-    .sections__sectionDivs  {
+    .sections__parts  {
         max-width: 100%;
     }
-    .sections__sectionDivs--empty  {
+    .sections__parts--empty  {
         max-width: 350px !important;
         margin: auto;
     }
